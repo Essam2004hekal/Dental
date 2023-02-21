@@ -1,0 +1,711 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    Overflow-x : hidden ;
+    height: 4500px;
+}
+
+nav .navbar {
+    justify-content: space-between;
+    text-decoration: none;
+    height: 80px;
+}
+
+nav .navbar i {
+color: #583FBC;
+font-size: 35px;
+d
+}
+
+nav .links a {
+    color: #583FBC;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    transition: all 1s ease;
+}
+
+nav .links a:hover {
+    background-color:#583FBC ;
+    color: white;
+    border-radius: 18px;
+    padding: 7px 22px;
+}
+
+.nav-button {
+    background-color:#583FBC ;
+    color: white;
+    border-radius: 18px;
+    padding: 7px 22px;
+    border: none;
+} 
+
+/* -- ======---------- End nav ----========-----*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- ======---------- Start Frist section ----========-----*/
+
+.bg {
+    position: relative;
+    width: 1392px;
+    height: 600px;
+    left: -52px;
+    top: 10px;
+}
+
+#root  {
+    position: absolute; 
+    width: 480px;
+    height: 333px;
+    left: 150px;
+    top: 245px;
+}
+
+#root p {
+    margin-top: 40px;
+    line-height: 34px;
+}
+
+#root button {
+    margin-top: 50px;
+    background-color:#583FBC ;
+    color: white;
+    border-radius: 18px;
+    padding: 7px 22px;
+    border: none;}
+
+
+#rootimg {
+    position: absolute; 
+    width: 550px;
+    height: 600px;
+    left: 740px;
+    top: 170px;
+}  
+
+.dots {
+    position: absolute; 
+    width: 144px;
+    height: 144px;
+    left: 645px;
+    top: 598px;
+}
+
+.left {
+    position: absolute; 
+    width: 26px;
+    height: 26px;
+    left: 648px;
+    top: 490px;
+}
+
+.middle {
+    position: absolute; 
+    width: 16px;
+    height: 16px;
+    left: 684px;
+    top: 316px;
+}
+
+.right {
+    position: absolute; 
+    width: 26px;
+    height: 26px;
+    left: 1340px;
+    top: 366px;
+}
+
+.den {
+    position: absolute; 
+    width: 96px;
+    height: 96px;
+    left: 1292px;
+    top: 520px;
+    
+} 
+
+/* -- ======---------- End Frist section ----========-----*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- ======---------- Start Second section ----========-----*/
+
+.bg2 {
+    position: relative;
+    width: 1378px;
+    height: 888px;
+    left: 24px;
+    top: 0px;
+}
+
+.head .p {
+    color: #583FBC;
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    left: 681px;
+    top: 1188px;
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+}
+
+.head h1 {
+    position: absolute;
+    width: 855px;
+    height: 60px;
+    left: 293px;
+    top: 1224px;
+    display: flex;
+    align-items: flex-end;
+    color: #181945;
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 20px;
+    letter-spacing: -0.04rem;
+}
+
+.head .pp {
+    position: absolute;
+    width: 839px;
+    height: 56px;
+    left: 350px;
+    top: 1324px;
+    display: flex;
+    align-items: flex-end;
+    color: #181945;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02rem;
+    text-align: center;
+}
+
+
+.dent1 {
+    position: absolute;
+    width: 400px;
+    height: 96px;
+    left: 300px;
+    top: 1498px;
+}
+
+
+.dent2 {
+    position: absolute;
+    width: 387px;
+    height: 92px;
+    left: 784px;
+    top: 1498px;
+}
+
+
+
+.dent3 {
+    position: absolute;
+    width: 400px;
+    height: 96px;
+    left: 300px;
+    top: 1668px;
+}
+
+
+.dent4 {
+    position: absolute;
+    width: 399px;
+    height: 96px;
+    left: 772px;
+    top: 1668px;
+}
+
+
+.dent5 {
+    position: absolute;
+    width: 400px;
+    height: 96px;
+    left: 300px;
+    top: 1844px;
+}
+
+/* -- ======---------- End Second section ----========-----*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- ======---------- Start Third section ----========-----*/
+
+.sec3 h6 {
+    margin-left: 80px;
+    color: #583FBC;
+    font-size: 12px;
+    letter-spacing: 0.08rem;
+}
+
+.sec3 .text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec3 .text-left {
+    margin-right: 120px;
+    color: #181945;
+    letter-spacing: -0.04rem;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    font-style: normal;
+}
+
+.sec3 .text-right {
+    color: #181945;
+    line-height: 28px;
+    letter-spacing: -0.02rem;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items:flex-end;
+    opacity: 0.8;
+}
+
+
+.sec3-img {
+
+    margin-left: 80px;
+}
+
+.sec3 .top1 {
+margin-right: 20px;
+}
+.sec3 .top2 {
+margin-right: 20px;
+}
+
+
+.sec3-img2 {
+
+    margin-left: 80px;
+}
+
+.sec3 .buttom1 {
+    margin-right: 20px;
+    }
+    .sec3 .buttom2 {
+    margin-right: 20px;
+    }
+
+/* -- ======---------- End Third section ----========-----*/
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+    padding-bottom: 130px;
+    background-color:rgb(245, 245, 245) ;
+}
+
+.contact .info {
+    padding: 30px;
+    background: #181945;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .info i {
+    position: absolute;
+    left: 50px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: white;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: rgba(5, 13, 24, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group label {
+    color: white;
+}
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.contact .info .email p {
+    padding-top: 5px;
+}
+
+.contact .info .social-links {
+    padding-left: 60px;
+}
+
+.contact .info .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: rgba(5, 13, 24, 0.3);
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.contact .info .social-links a:hover {
+    background:#fff ;
+    color:#181945 ;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+    background:#fff ;
+    color:#181945 ;
+}
+
+.contact .php-email-form {
+    width: 100%;
+    padding: 30px;
+    background: #181945 ;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+    margin-top: 25px;
+}
+.contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #181945;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+    display: none;
+    background: rgba(5, 13, 24, 0.3);
+    text-align: center;
+    padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #181945;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact .php-email-form label {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact .php-email-form input {
+    height: 44px;
+}
+
+.contact .php-email-form textarea {
+    padding: 10px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+    background:#fff ;
+    border: 0;
+    padding: 10px 24px;
+    color:#181945 ;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.4s;
+    border-radius: 7px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+    background: #fff;
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+    transform: rotate(0deg);
+    }
+
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+    transform: rotate(0deg);
+    }
+
+    100% {
+    transform: rotate(360deg);
+    }
+}
+/* -- ======---------- End Contact ----========-----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- ======---------- Start Footer ----========-----*/
+
+.footer {
+    background-color:#181945 ;
+    height: 600px;
+}
+
+.logoo {
+    margin-top: 100px;
+}
+
+.footer p {
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.footer i {
+    color: white;
+    line-height: 28px;
+}
+
+.footer #tw {
+    margin-left: 50px;
+}
+
+.footer #tw:hover {
+    color: rgb(92, 164, 223);
+}
+
+.footer #insta {
+    margin-left: 50px;
+}
+
+.footer #insta:hover {
+    color: rgba(167, 20, 20, 0.89);
+}
+.footer #face:hover {
+    color: blue;
+}
+
+.footer h6 {
+    color: #ffffff;
+    opacity: 0.8;
+}
+.footer li {
+    color: #ffffff;
+    opacity: 0.6;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'ABeezee';
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer li:hover {
+    opacity: 1;
+}
+
+.footer .list {
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+.footer .contactt {
+    margin-top: 100px;
+}
+
+.footer .hhh {
+    position: absolute;
+    left: 980px;
+}
+
+.footer .con {
+    margin-left: 250px;
+}
+
+.footer .num {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.contactt i {
+    color: white;
+    font-size: 42px;
+    position: absolute;
+    left: 976px;
+    margin-top: 16px;
+}
+
+.contactt .terms {
+    position: absolute;
+    left: 1000px;
+}
+
+.contactt .privacy {
+    position: absolute;
+    left: 1180px;
+}
+
+/* -- ======---------- End Footer ----========-----*/
+
+
+
+
+
+
+
+
+/* -- ======---------- Media query for nav ----========-----*/
+
+@media only screen and (max-width:600px) {
+    .nav-button {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .links {
+        width: 280px;
+        min-height: 290px;
+        background-color: gray;
+        color: #583FBC;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* position: fixed; */
+        /* justify-content: space-around; */
+        padding: 20px;
+        transform: translateX(-150%);
+        transition: all 0.7s ease;
+        /* display: none; */
+    }
+    .navbar i:hover .links {
+        /* display: block; */
+        transform: translateX(-25%)
+    }
+
+    .links a {
+        color: #583FBC;
+        font-size: 25px;
+    }
+
+} 
